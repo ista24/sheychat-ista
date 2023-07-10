@@ -5,7 +5,7 @@ import UserSearch from "./components/UserSearch";
 import UsersList from "./components/UsersList";
 import { io } from "socket.io-client";
 
-const socket = io('https://sheychat-istapriya.onrender.com');
+const socket = io('https://sheychat-ista.onrender.com');
 function Home() {
   const [searchKey, setSearchKey] = React.useState("");
   const { selectedChat, user } = useSelector((state) => state.userReducer);
